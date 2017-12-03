@@ -195,3 +195,10 @@ body {
    border-radius: 5px;
 }
 
+option{
+  background: #202020 !important;
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+
+
