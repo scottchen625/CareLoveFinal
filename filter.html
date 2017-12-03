@@ -1,0 +1,151 @@
+<!doctype html>
+<html>
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110408954-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-110408954-1');
+    </script>
+    <title>FilterByPage</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="css/home.css" rel="stylesheet">
+    <link href="css/filter.css" rel="stylesheet">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+
+</head>
+<body>
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+    <div class="careloveTitle">
+          Care Love
+        </div>
+
+        <div class="row">
+            <div class="backbutton">
+                <a href="home.html" class="btn btn-info" role="button">Back</a>
+            </div>
+            <div class="headertext">
+                <h4>Filter By</h4>
+            </div>
+            <div class="headertext">
+            </div>
+        </div>
+
+    <div id="gender_filter" >
+        <h4>Gender <br></h4>
+        <form>
+            <div class="radio">
+              <label><input type="radio" name="gender" value="M" id="GenderMale">Male</label>
+            </div>
+            <div class="radio">
+              <label><input type="radio" name="gender" value="F" id="GenderFemale">Female</label>
+           </div>
+           <div class="radio">
+              <label><input type="radio" name="gender" value="B" id="GenderBoth" checked>Doesnt Matter</label>
+           </div>
+        </form>
+    </div>
+
+
+    <div id="age_filter">
+        <h4>Age</h4>
+        <form id="ageRangeInput">
+            Minimum Age:<br>
+            <input type="number" id="minAge" min="18" step="1" value="18"><br>
+            Maximum Age:<br>
+            <input type="number" id="maxAge" min="18" step="1" value= "60">
+        </form>
+    </div>
+
+<div id="price_filter">
+    <h4>Price/hr</h4>
+
+    <div class="btn-group" data-toggle="buttons" style="display: block; margin: 0 auto;" id="priceRangeRadioButtons">
+      <label class="btn btn-primary">
+        <input type="radio" name="options" id="priceOption1" value="1"> $0-20
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="options" id="priceOption2" value="2"> $21-30
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="options" id="priceOption3" value="3"> $31-40
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="options" id="priceOption4" value="4"> $41 &#8593;
+      </label>
+      <label class="btn btn-primary active">
+        <input type="radio" name="options" id="priceOption5" value="5" checked> Any Price
+      </label>
+      <div style='clear:both'></div>
+    </div>
+</div>
+
+<div id="distance_filter">
+    <h4>Distance from you (in miles)</h4>
+    <div class="btn-group" data-toggle="buttons" style="display: block; margin: 0 auto;" id="locationRadioButtons">
+      <label class="btn btn-primary">
+        <input type="radio" name="locationDist" id="locationOption1" value="1"> 0-5
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="locationDist" id="locationOption2" value="2"> 6-15
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="locationDist" id="locationOption3" value="3">16-20
+      </label>
+      <label class="btn btn-primary">
+        <input type="radio" name="locationDist" id="locationOption4" value="4"> 21 &#8593;
+      </label>
+      <label class="btn btn-primary active">
+        <input type="radio" name="locationDist" id="locationOption5" value="5" checked> Any Distance
+      </label>
+    </div>
+      <div style='clear:both'></div>
+</div>
+
+
+<div style="margin-top: 20px; margin-bottom: 20px; width: 100%">
+    <div id="searchButtonCSS">
+      <a class="btn btn-info" role="button" id="searchButton">Search</a>
+    </div>
+    <h4 id="min-age-warning" style="color: red">Your 'Age' preferences must be 18+</h4>
+    <h4 id="min-max-warning" style="color: red">Your 'Minimum Age' must be less than or equal to your 'Maximum Age'</h4>
+</div>
+
+
+
+
+
+
+<script src="js/vendor/modernizr-3.5.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script src="https://code.jquery.com/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="js/handlebars-v4.0.11.js"></script>-->
+<!--<script src="js/home.js"></script>-->
+<script src="js/filter.js"></script>
+</body>
+</html>

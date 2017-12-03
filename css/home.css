@@ -1,0 +1,158 @@
+nav ul {
+  height:300px;
+  overflow:hidden;
+  overflow-y:scroll;
+}
+
+.tableMenu{
+  display: table-cell;       
+  text-align: left; 
+  width: 20%;   
+}
+
+.tableHeader{
+  display: table-cell;       
+  text-align: center; 
+  width: 60%;   
+}
+
+.tableFilterButton{
+  display: table-cell;       
+  text-align: right;
+  width: 20%;
+}
+
+.row {
+ display: table;
+ width: 100%;
+ table-layout: fixed;
+
+ margin-right: 0px !important;
+ margin-left: 0px !important;
+
+}
+
+
+.appFunctionalityExplanation {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.caretakersNav {
+  list-style-type: none;
+  overflow:hidden;
+}
+
+.caretakers {
+  background:#ADE78C;
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+
+#careTaker_list_container {
+  text-align: center;
+}
+
+#hamburger_menu_button {
+  width: 150px;
+  height: 40px;
+}
+
+#filter_by_button {
+  width: 150px;
+  height: 40px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.sortbyelements{
+  display: table-cell; 
+  text-align: center;
+  
+}
+
+
+#navigation_items_container {
+  display:inline-block;
+}
+
+#navigation_items_container span {
+  font-size: 40px;
+}
+
+
+.sidenav {
+  display: none;
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+h1 {
+  padding: 0;
+  color:#4CAF50; 
+  font-family:verdana;
+  text-align: center;
+}
+#filterby_button{
+ margin-bottom: 3px;
+ margin-right: 15px;
+}
+
+#menuButton{
+  margin-left: 15px;
+  margin-bottom: 3px;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #ADE78C;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
