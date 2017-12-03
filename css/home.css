@@ -5,19 +5,20 @@ nav ul {
 }
 
 .tableMenu{
-  display: table-cell;       
-  text-align: left; 
-  width: 35%;   
+  display: table-cell;
+  text-align: left;
+  width: 35%;
 }
 
 .tableHeader{
-  display: table-cell;       
-  text-align: center; 
-  width: 30%;   
+  display: table-cell;
+  text-align: center;
+  width: 30%;
+  color: white;
 }
 
 .tableFilterButton{
-  display: table-cell;       
+  display: table-cell;
   text-align: right;
   width: 35%;
 }
@@ -67,9 +68,9 @@ img {
 }
 
 .sortbyelements{
-  display: table-cell; 
+  display: table-cell;
   text-align: center;
-  
+
 }
 
 
@@ -122,10 +123,17 @@ img {
 
 h1 {
   padding: 0;
-  color:#4CAF50; 
+  /*color:#4CAF50;*/
+  color: white;
   font-family:verdana;
   text-align: center;
+  text-shadow: -1px 0 #ADE78C, 0 1px #ADE78C, 1px 0 #ADE78C, 0 -1px #ADE78C;
 }
+
+body {
+  background-color: #cde7f0 !important;
+}
+
 #filterby_button{
  margin-bottom: 3px;
  margin-right: 15px;

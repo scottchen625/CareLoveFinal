@@ -21,6 +21,11 @@ img.loginImage {
 	text-align: center;
 	display: table-cell;
 	width: 60%;
+  color: white;
+}
+
+body {
+  background-color: #cde7f0;
 }
 
 .row {
@@ -44,15 +49,16 @@ img.loginImage {
 	max-width: 90%;
 }
 
-/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */    
+/* If in mobile screen with maximum width 479px. The iPhone screen resolution is 320x480 px (except iPhone4, 640x960) */
 @media only screen and (max-width: 479px){
 	#container2 { width: 90%; }
 }
 
 .careloveTitle {
-	color:#4CAF50; 
+	color: white;
 	font-family:verdana;
 	text-align: center;
+  text-shadow: -1px 0 #ADE78C, 0 1px #ADE78C, 1px 0 #ADE78C, 0 -1px #ADE78C;
 	font-size: 1.75em;
     margin: 0.67em 0;
     font-weight: 500;
