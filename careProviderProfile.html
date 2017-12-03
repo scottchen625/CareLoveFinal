@@ -43,12 +43,9 @@
             <div class="backbutton">
                 <a href="home.html" class="btn btn-info" role="button">Back</a>
             </div>
-            <script id="entry-template" type="text/x-handlebars-template">
 
             <div class="headertext">
-                <h4>{{name}}\'s Profile</h4>
             </div>
-          </script>
             <div class="backbutton"></div>
         </div>
 
@@ -57,7 +54,7 @@
         <!-- remember to put Handlebars fs within script tags so that the
      webpage doesn't attempt to load them as HTML -->
 <script id="entry-template" type="text/x-handlebars-template">
-        <h2 style = "text-align: center; color: white;">{{name}}</h2>
+        <h2 style = "text-align: center; color: white;">{{name}}'s Profile</h2>
         <img class="img-fluid" style="display: block; margin: 0 auto;" src="{{profilePic}}" alt="{{name}}">
         <a href="reviews.html" style="text-decoration:none;">
             <img class="img-fluid" style="display: block; margin: 0 auto;" src="pix/stars_{{stars}}.png">

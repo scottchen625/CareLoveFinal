@@ -25,7 +25,7 @@ img.loginImage {
 }
 
 body {
-  background-color: #cde7f0;
+  background-color: #59caff !important;
 }
 
 .row {
@@ -73,7 +73,7 @@ body {
 
 .card-block{
 	margin-left: 15px;
-	background-color: #cde7f0;
+	background-color: #59caff;
 }
 
 .checked {
