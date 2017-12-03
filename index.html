@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/loginStyle.css">
 </head>
-<body>
+<body style="background-color: #59caff;">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
             <![endif]-->
@@ -34,24 +34,26 @@
             <!-- Citation: https://www.w3schools.com/howto/howto_css_login_form.asp -->
 
             <!-- Add your site or application content here -->
-            <h1 style="color:#4CAF50" style="font-family:verdana" class="text-center">Care Love</h1>
+            <h1 style="padding: 0;color: white; font-family: verdana;
+    text-align: center;
+    text-shadow: -1px 0 #ADE78C, 0 1px #ADE78C, 1px 0 #ADE78C, 0 -1px #ADE78C;" class="text-center">Care Love</h1>
 
             <div class="imgcontainer">
                 <img src="./pix/loginImage.jpg" alt="loginImage" class="loginImage">
             </div>
 
-            <div class="appFunctionalityExplanation">
+            <div class="appFunctionalityExplanation" style="color: white;">
                 <h6>Looking for professional caretakers? We help connect you to them.</h6>
             </div>
 
-            <div class="container">
+            <div class="container" style="color: white;">
                 <label><b>Username</b></label>
                 <input id="inputted_username" type="text" placeholder="Enter Username" name="uname" required>
 
                 <label><b>Password</b></label>
                 <input id="inputted_password" type="password" placeholder="Enter Password" name="psw" required>
 
-                <button id="login" class="button" type="submit" >Login</button>
+                <button id="login" class="button" type="submit" style="background-color: #ADE78C;">Login</button>
 
                 <h4 id="invalid_account_warning" style="color:red">Not a recognized account</h4>
 
