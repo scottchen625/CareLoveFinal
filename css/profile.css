@@ -74,6 +74,7 @@ body {
 .card-block{
 	margin-left: 15px;
 	background-color: #59caff;
+	color: white;
 }
 
 .checked {
