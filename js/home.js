@@ -76,7 +76,7 @@ $(function () {
   console.log(currUser);
   console.log(sort_option);
 
-  var simpleData = {};
+  /*var simpleData = {};
   console.log(localStorage.getItem("hamburger_menu"));
   var theTemplateScriptHamburger   = $("#menu-button-template").html();
   var theTemplateHamburger = Handlebars.compile(theTemplateScriptHamburger);
@@ -85,7 +85,7 @@ $(function () {
   console.log(simpleData.hamburger_menu);
   var htmlHamburger = theTemplateHamburger(simpleData);
   var parentDiv = $(".row");
-  parentDiv.append(htmlHamburger);
+  parentDiv.append(htmlHamburger);*/
 
 	if(priceRange == 1)
 	{
@@ -293,8 +293,8 @@ function openNav() {
     document.getElementById("mySidenav").style.display = "block";
     console.log("button clicked"); // fix smart quote from slide!
     // tracker code here, refer to slide #26 and #27
-    tracker = ga.getAll()[0];
-    tracker.send('event', 'button', 'click');
+    //tracker = ga.getAll()[0];
+    //tracker.send('event', 'button', 'click');
 }
 
 /* Close/hide the sidenav */
